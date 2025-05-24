@@ -67,3 +67,10 @@ The proposed phishing detection system, powered by a Recurrent Neural Network (R
 In this project, we developed a robust phishing site detection model with help of advanced Recurrent Neural Network (RNN) model with LSTM layers. The traditional model like Logistic Regression, Multinomial Naïve Bayes provides decent performance with relatively low computational overhead. However, their accuracy was limited due to their inability to effectively capture complex sequential patterns and contextual relationships within the input features.
 In contrast, the RNN-based model significantly outperformed these classical approaches. Leveraging LSTM units, the deep learning model was able to learn temporal dependencies and intricate patterns in the dataset, especially when enriched with embedded vectors generated from the Mistral language model.
 The RNN-based model achieved approximately 99% accuracy and exhibited strong precision and recall metrics across both phishing and legitimate classes. Overall, the integration of deep learning and vector embeddings has proven to be a powerful approach in enhancing phishing site detection
+
+Kaggle. (n.d.). Phishing website datasets. Retrieved from https://www.kaggle.com/datasets/
+TensorFlow: TensorFlow. (n.d.). An end-to-end open source machine learning platform. Retrieved from https://www.tensorflow.org/
+Keras. (n.d.). Keras: The Python Deep Learning API. Retrieved from https://keras.io/
+Ollama. (n.d.). Mistral LLM. Retrieved from https://ollama.com/library/mistral
+Scikit-learn: Scikit-learn. (n.d.). Machine Learning in Python. Retrieved from https://scikit-learn.org
+
