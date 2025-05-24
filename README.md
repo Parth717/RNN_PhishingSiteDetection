@@ -39,6 +39,21 @@ Even with limited hardware support (e.g. CPU-only systems), models can be traine
 **Operational Feasibility**
 Operationally, the system requires minimal user interaction and can be deployed as an automated detection module. It is suitable for integration into browser extension, email filters, or security appliances. The learning-based nature of model allows it to learn to changing techniques by malicious phishing site over time, making it future-proof and scalable for large deployments.
 
+**Vector Embedding**
+For vector embedding we uses LLM (Large Language Model). Mistral LLM is used in for vectorizing the URL. Vectorizing means converting the data into numerical format(vectors) that a machine learning, or deep learning model can understand and process.
+
+Attribute	Details
+Model Name :	Mistral
+Type	: Open-source Large Language Model (LLM)
+License :	Apache
+Version	: 2.0
+ID :	f974a74358d6
+Size	: 4.1 GB
+Architecture :	Llama
+Parameters	: 7.2 Billion
+Embedding Length	: 4096
+
+
 **Advantages/Unique Features**
 The proposed phishing detection system, powered by a Recurrent Neural Network (RNN), offers several advantages over traditional methods:
 •	Sequence Awareness: Unlike classical ML models that treat features independently, RNNs can understand the sequential structure of URLs, making them ideal for detecting obfuscated or cleverly crafted phishing links.
